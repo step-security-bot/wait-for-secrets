@@ -32,7 +32,7 @@ jobs:
           github.com:443
           prod.api.stepsecurity.io:443
 
-    - uses: step-security/wait-for-secrets@main
+    - uses: step-security/wait-for-secrets@85ad5691976d12fcf4b21e23310594e89a0d3721
       id: wait-for-secrets
       with:
         secrets: |
